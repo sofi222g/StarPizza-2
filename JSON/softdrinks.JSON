@@ -1,0 +1,24 @@
+{
+    "softdrinks": [
+        {
+    
+            "name": "Coca Cola"
+        },
+        {
+            
+            "name": "Pepsi"
+        },
+        {
+            
+            "name": "Fanta Orange"
+        },
+        {
+           
+            "name": "Sprite"
+        },
+        {
+           
+            "name": "Dr Pepper"
+        }
+    ]
+}

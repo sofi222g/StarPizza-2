@@ -1,0 +1,47 @@
+{
+    "pizza": [
+        {
+            "name": "Margarita",
+            "ingredients": "Tomato sauce, Cheese",
+            "bigImage": "images/margherita_big.jpg",
+            "smallImage": "images/margherita_small.jpg"
+        },
+        {
+            "name": "Hawaii",
+            "ingredients": "Tomato sauce, Cheese, Ham, Pineapple",
+            "bigImage": "images/hawaiian_big.jpg",
+            "smallImage": "images/hawaiian_small.jpg"
+        },
+        {
+            "name": "Pepperoni",
+            "ingredients": "Tomato sauce, Cheese, Pepperoni",
+            "bigImage": "images/pepperoni_big.jpg",
+            "smallImage": "images/pepperoni_small.jpg"
+        },
+        {
+            "name": "Curry Chicken",
+            "ingredients": "Tomato sauce, Cheese, Curry Chicken, Bell pepper, Onion",
+            "bigImage": "images/curry_chicken_big.jpg",
+            "smallImage": "images/curry_chicken_small.jpg"
+        },
+        {
+            "name": "Ranch Chicken",
+            "ingredients": "Tomato sauce, Cheese, Chicken, Ham, Onion, Mushroom, Zuquini, Ranch",
+            "bigImage": "images/ranch_chicken_big.jpg",
+            "smallImage": "images/ranch_chicken_small.jpg"
+        },
+        {
+            "name": "Supreme",
+            "ingredients": "Tomato sauce, Cheese, Pepperoni, Italian sausage, Bell pepper, Onion, Olives, Ham, Olives, Pineapple",
+            "bigImage": "images/supreme_big.jpg",
+            "smallImage": "images/supreme_small.jpg"
+        },
+        {
+            "name": "Veggie Lovers",
+            "ingredients": "Tomato sauce, Cheese, Mushroom, Bell pepper, Onion, Pineapple",
+            "bigImage": "images/veggie_lovers_big.jpg",
+            "smallImage": "images/veggie_lovers_small.jpg"
+        }
+    ]
+}
+  
