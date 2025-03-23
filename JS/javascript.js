@@ -202,6 +202,8 @@ function createSoftDrinks(element)
 let cart = [];
 
 function addToCart(name, price) {
+
+    price = parseFloat(price); // Convert price to a number
     // Check if the item already exists in the cart
     let existingElement = cart.find(element => element.name === name);
     if (existingElement) {
@@ -225,6 +227,7 @@ function updateCart() {
     const cartTotal = document.getElementById('cart-total');
     cartItems.innerHTML = '';
     let total = 0;
+
     cart.forEach(element => {
         const li = document.createElement('li');
         li.textContent = `${element.name} - ${element.price} x ${element.quantity}`;
@@ -233,9 +236,12 @@ function updateCart() {
         removeButton.onclick = () => removeFromCart(element.name);
         li.appendChild(removeButton);
         cartItems.appendChild(li);
+
         total += element.price * element.quantity;
     });
-    cartTotal.textContent = total;
+    
+    cartTotal.textContent = total.toFixed(2); // Display total with 2 decimal places
+    saveCart();
 }
 
 function saveCart() {
@@ -254,20 +260,29 @@ window.onload = loadCart;
 window.addEventListener("scroll", function () {
     const cart = document.getElementById("cart");
     const placeholder = document.getElementById("cart-placeholder");
+    const footer = document.querySelector("footer");
     const placeholderTop = placeholder.getBoundingClientRect().top;
+    const footerTop = footer.getBoundingClientRect().top;
     const cartHeight = cart.offsetHeight;
+    const gap = 20;
 
-    if (placeholderTop <= window.innerHeight - cartHeight - 20) {
+    if (placeholderTop <= window.innerHeight - cartHeight - gap) {
         // Stop the cart at its final position
         cart.style.position = "absolute";
         cart.style.bottom = "auto";
         cart.style.top = `${window.scrollY + placeholderTop - cartHeight}px`;
+    } else if (footerTop <= window.innerHeight + gap) {
+        // Stop the cart when it overlaps with the footer
+        cart.style.position = "absolute";
+        cart.style.bottom = "auto";
+        cart.style.top = `${window.scrollY + footerTop - cartHeight - gap}px`;
     } else {
         // Make the cart sticky at the bottom
         cart.style.position = "sticky";
-        cart.style.bottom = "20px";
+        cart.style.bottom = `${gap}px`;
         cart.style.top = "auto";
     }
 });
 
+console.log("End of script");
 console.log("End of script");
