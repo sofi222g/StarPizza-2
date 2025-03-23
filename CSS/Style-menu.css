@@ -167,7 +167,8 @@ section p{
 }
 
 .cart {
-    margin: 20px;
+    margin: 20px auto;
+
     color: black;
     background-color: white;
     border-radius: 25px;
@@ -176,6 +177,8 @@ section p{
     z-index: 1000;
     max-height: 40vh;
     overflow-y: auto;
+    width: 95%;
+    box-sizing: border-box;
 }
 
 #cart-placeholder{
