@@ -1,19 +1,24 @@
 {
     "sparkles": [
         {
-            "name": "Perrier (Sparkling Water)"
+            "name": "Perrier (Sparkling Water)",
+            "price": "45,00 kr"
         },
         {
-            "name": "San Pellegrino (Sparkling Mineral Water)"
+            "name": "San Pellegrino (Sparkling Mineral Water)",
+            "price": "45,00 kr"
         },
         {
-            "name": "LaCroix (Flavored Sparkling Water)"
+            "name": "LaCroix (Flavored Sparkling Water)",
+            "price": "45,00 kr"
         },
         {
-            "name": "Schweppes Tonic Water"
+            "name": "Schweppes Tonic Water",
+            "price": "45,00 kr"
         },
         {
-            "name": "Club Soda"
+            "name": "Club Soda",
+            "price": "35,00 kr"
         }
     ]
 }
