@@ -2,23 +2,28 @@
     "softdrinks": [
         {
     
-            "name": "Coca Cola"
+            "name": "Coca Cola",
+            "price": "45,00 kr"
         },
         {
             
-            "name": "Pepsi"
+            "name": "Pepsi",
+            "price": "45,00 kr"
         },
         {
             
-            "name": "Fanta Orange"
+            "name": "Fanta Orange",
+            "price": "45,00 kr"
         },
         {
            
-            "name": "Sprite"
+            "name": "Sprite",
+            "price": "45,00 kr"
         },
         {
            
-            "name": "Dr Pepper"
+            "name": "Dr Pepper",
+            "price": "45,00 kr"
         }
     ]
 }
