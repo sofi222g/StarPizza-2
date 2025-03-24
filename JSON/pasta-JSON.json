@@ -3,12 +3,14 @@
         {
             "name": "Creamy Mushroom",
             "ingredients": "Spaghetti, Mushroom, Onion, Parmesan cheese",
-            "image": "images/creamy_mushroom_big.jpg"
+            "image": "images/creamy_mushroom_big.jpg",
+            "price": "105,00 kr."
         },
         {
             "name": "Squid Scallop",
             "ingredients": "Spaghetti, Squid, Scallop, Cherry tomatoes",
-            "image": "images/squid_scallop_big.jpg"
+            "image": "images/squid_scallop_big.jpg",
+            "price": "105,00 kr."
         }
     ]
 }
