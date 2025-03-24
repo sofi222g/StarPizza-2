@@ -200,10 +200,9 @@ function createSoftDrinks(element)
 }
 
 let cart = [];
-price = parseFloat(price); // Convert price to a number
 
 function addToCart(name, price) {
-
+    price = parseFloat(price); // Convert price to a number
     // Check if the item already exists in the cart
     let existingElement = cart.find(element => element.name === name);
     if (existingElement) {
